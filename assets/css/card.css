@@ -1,0 +1,153 @@
+
+:root{
+  /* Definir variables en CSS */
+  --fondo:url('../img/fondo.jpg');
+  --header:rgba(80, 21, 43, 0.21);
+  --color-2:rgba(31, 208, 205, 0.11);
+
+  --cardfonts:"Roboto";
+
+}
+
+.h5>h5 {
+
+  font-size: 68px;
+  font-family: "Roboto";
+
+
+}
+#columnas-card>.card{
+  background-color: var(--color-2);
+}
+
+
+
+.parr>p{
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  position: flex;
+
+}
+
+.borde{
+  border-radius: 30px;
+  width: 130px;
+  text-align: center;
+  justify-content: center;
+}
+
+.star{
+  padding-left: 48px;
+  padding-top: 0;
+}
+
+
+.trans{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#columnas-card>.card>.card-body>.eliminar{
+    display:none;
+
+ }
+
+
+ .trab .card .card-body .tittle{
+     text-align: center;
+     font-size: 26px;
+     color: #000000;
+     font-weight: 50;
+     font-family: 'Roboto', sans-serif;
+     padding-top:0;
+ }
+
+ .trab img{
+     height: 200px;
+     width:  100%;
+ }
+
+ .trab{
+     width: 100%;
+     max-width: 1200px;
+     height: 390px;
+     display: contents;
+     flex-wrap: wrap;
+     margin: auto;
+
+ }
+
+ .trab .card{
+     margin: 20px;
+     transition: all 0.25s;
+     border-radius: 30px;
+
+ }
+
+ .trab .card:hover{
+     transform: translateY(-15px);
+     box-shadow: 0 16px 20px rgba(0, 0, 0, 0.6);
+     border-radius: 30px;
+ }
+
+
+  .trab2 .card .card-body .tittle{
+      text-align: center;
+      font-size: 26px;
+      color: #fff;
+      font-weight: 50;
+      font-family: 'Roboto', sans-serif;
+      padding-top:0;
+  }
+
+
+  .trab2{
+      width: 100%;
+      max-width: 1200px;
+      height: 800px;
+      display: contents;
+      flex-wrap: wrap;
+      margin: auto;
+
+  }
+
+  .trab2 .card{
+      margin: 50px;
+      transition: all 0.25s;
+      border-radius: 30px;
+
+  }
+
+  .trab2 .card:hover{
+      transform: translateY(-15px);
+      box-shadow: 0 16px 20px rgba(0, 0, 0, 0.6);
+      border-radius: 30px;
+  }
+
+#hol .trab3{
+      width: 100%;
+      max-width: 1200px;
+      height: 1200px;
+
+      display: contents;
+      flex-wrap: wrap;
+      margin: auto;
+
+  }
+
+#hol .trab3 .card{
+  padding-right: 30px;
+      margin: 50px;
+      transition: all 0.25s;
+      border-radius: 30px;
+
+  }
+
+#hol.card:hover{
+      transform: translateY(-15px);
+      box-shadow: 0 16px 20px rgba(0, 0, 0, 0.6);
+      border-radius: 30px;
+  }

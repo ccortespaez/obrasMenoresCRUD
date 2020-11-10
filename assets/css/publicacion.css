@@ -1,0 +1,83 @@
+
+:root{
+  /* Definir variables en CSS */
+  --fondo:url('../img/fondo.jpg');
+  --header:rgba(80, 21, 43, 0.21);
+  --color-2:rgba(28, 51, 164, 0.72);
+  --cardbody:url('../img/copy.jpg');
+  --cardfonts:"Roboto";
+
+}
+
+
+
+.img-icon{
+  height: 25px;
+  float:left;
+
+}
+.img-user{
+  height: 20px;
+  float:left;
+
+}
+
+.img-fluid{
+  height: 25px;
+  float:left;
+
+}
+
+.bg-cardbody{
+   background-color: var(--cardbody);
+   background-size:cover;
+}
+
+
+.bg-header{
+   background-color: var(--header);
+}
+
+.bg-cardheader{
+   background:#7984A0;
+}
+.bg-color-2{
+   background-color: var(--color-2);
+}
+
+.bg-bodyfondo{
+   background: var(--fondo);
+   background-size:cover;
+}
+
+
+.font-cine{
+  font-family: var(--cardfonts);
+  font-size: 18px;
+}
+
+.navbar>a{
+  margin-right:-150px;
+  margin-left: 50px;
+}
+
+.navbar-nav>li{
+ float:left;
+ margin-left:30px;
+}
+.navbar-nav{
+  margin: 0 auto;
+}
+
+.card-columns .card{
+  background:rgba(0, 80, 161, 0.63);
+  color:white
+}
+.card-columns>.card>.card-body>button{
+  background: #330777;
+  color:white;
+}
+.card-columns>.card>.card-footer>button{
+  background: rgba(28, 51, 164, 0.72);
+  color:white;
+}

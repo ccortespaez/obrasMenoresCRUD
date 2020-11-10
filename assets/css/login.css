@@ -1,0 +1,69 @@
+
+:root{
+  /* Definir variables en CSS */
+  --color-fondo1: rgba(8, 22, 36, 0.47);
+  --color-fondo2: rgba(28, 51, 164, 0.72) ;
+}
+
+.bg-login{
+   background:#213b52;
+   background-size:cover;
+}
+.bg-color1{
+  background: var(--color-fondo1);
+}
+.bg-color2{
+  background: var(--color-fondo2);
+}
+
+.img-fluid2{
+width: 40%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+margin-top:5%;
+}
+
+.texto-superior{
+text-align: center;
+padding-top: 4%;
+
+}
+
+
+
+.img-fluid{
+  height: 25px;
+  float:left;
+
+}
+.center{
+  text-align: center;
+}
+ span {
+  color: #fdc134;
+}
+h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.form-group{
+  padding-bottom:9%;
+}
+
+.form-group2{
+  padding-bottom:9%;
+  text-align: center;
+}
+.card{
+margin:0 auto;
+width: 50%;
+}
